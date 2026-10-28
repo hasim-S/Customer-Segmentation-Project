@@ -1,0 +1,110 @@
+<svg width="880" height="380" viewBox="0 0 880 380" xmlns="http://www.w3.org/2000/svg" style="background:#ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <rect width="100%" height="100%" fill="#ffffff" rx="8"/>
+  <text x="440" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#0f172a">Segment Demographic Profiles: Age, Income &amp; Spending Score</text>
+  
+  <g transform="translate(50, 70)">
+    <!-- Legend -->
+    <rect x="230" y="0" width="14" height="14" fill="#3b82f6" rx="2"/>
+    <text x="250" y="12" font-size="12" fill="#334155">Average Age</text>
+    <rect x="360" y="0" width="14" height="14" fill="#10b981" rx="2"/>
+    <text x="380" y="12" font-size="12" fill="#334155">Annual Income (k$)</text>
+    <rect x="520" y="0" width="14" height="14" fill="#f43f5e" rx="2"/>
+    <text x="540" y="12" font-size="12" fill="#334155">Spending Score (1-100)</text>
+
+    <!-- Chart Base line -->
+    <line x1="20" y1="240" x2="760" y2="240" stroke="#cbd5e1" stroke-width="1.5"/>
+
+    <!-- 5 Clusters -->
+    
+      <g transform="translate(50, 0)">
+        <!-- Bar 1: Age -->
+        <rect x="0" y="189.4" width="26" height="50.6" fill="#3b82f6" rx="3"/>
+        <text x="13" y="184.4" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e40af">25.3</text>
+
+        <!-- Bar 2: Income -->
+        <rect x="30" y="188.6" width="26" height="51.4" fill="#10b981" rx="3"/>
+        <text x="43" y="183.6" text-anchor="middle" font-size="10" font-weight="bold" fill="#065f46">$25.7k</text>
+
+        <!-- Bar 3: Spend -->
+        <rect x="60" y="81.19999999999999" width="26" height="158.8" fill="#f43f5e" rx="3"/>
+        <text x="73" y="76.19999999999999" text-anchor="middle" font-size="10" font-weight="bold" fill="#9f1239">79.4</text>
+
+        <!-- Cluster label -->
+        <text x="43" y="260" text-anchor="middle" font-size="11" font-weight="700" fill="#0f172a">Cluster 0</text>
+        <text x="43" y="275" text-anchor="middle" font-size="9" fill="#64748b">Spenders</text>
+      </g>
+      
+      <g transform="translate(195, 0)">
+        <!-- Bar 1: Age -->
+        <rect x="0" y="149.8" width="26" height="90.2" fill="#3b82f6" rx="3"/>
+        <text x="13" y="144.8" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e40af">45.1</text>
+
+        <!-- Bar 2: Income -->
+        <rect x="30" y="188.6" width="26" height="51.4" fill="#10b981" rx="3"/>
+        <text x="43" y="183.6" text-anchor="middle" font-size="10" font-weight="bold" fill="#065f46">$25.7k</text>
+
+        <!-- Bar 3: Spend -->
+        <rect x="60" y="199.6" width="26" height="40.4" fill="#f43f5e" rx="3"/>
+        <text x="73" y="194.6" text-anchor="middle" font-size="10" font-weight="bold" fill="#9f1239">20.2</text>
+
+        <!-- Cluster label -->
+        <text x="43" y="260" text-anchor="middle" font-size="11" font-weight="700" fill="#0f172a">Cluster 1</text>
+        <text x="43" y="275" text-anchor="middle" font-size="9" fill="#64748b">Budget</text>
+      </g>
+      
+      <g transform="translate(340, 0)">
+        <!-- Bar 1: Age -->
+        <rect x="0" y="154.2" width="26" height="85.8" fill="#3b82f6" rx="3"/>
+        <text x="13" y="149.2" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e40af">42.9</text>
+
+        <!-- Bar 2: Income -->
+        <rect x="30" y="129" width="26" height="111" fill="#10b981" rx="3"/>
+        <text x="43" y="124" text-anchor="middle" font-size="10" font-weight="bold" fill="#065f46">$55.5k</text>
+
+        <!-- Bar 3: Spend -->
+        <rect x="60" y="141.2" width="26" height="98.8" fill="#f43f5e" rx="3"/>
+        <text x="73" y="136.2" text-anchor="middle" font-size="10" font-weight="bold" fill="#9f1239">49.4</text>
+
+        <!-- Cluster label -->
+        <text x="43" y="260" text-anchor="middle" font-size="11" font-weight="700" fill="#0f172a">Cluster 2</text>
+        <text x="43" y="275" text-anchor="middle" font-size="9" fill="#64748b">Mainstream</text>
+      </g>
+      
+      <g transform="translate(485, 0)">
+        <!-- Bar 1: Age -->
+        <rect x="0" y="174.6" width="26" height="65.4" fill="#3b82f6" rx="3"/>
+        <text x="13" y="169.6" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e40af">32.7</text>
+
+        <!-- Bar 2: Income -->
+        <rect x="30" y="67" width="26" height="173" fill="#10b981" rx="3"/>
+        <text x="43" y="62" text-anchor="middle" font-size="10" font-weight="bold" fill="#065f46">$86.5k</text>
+
+        <!-- Bar 3: Spend -->
+        <rect x="60" y="75.80000000000001" width="26" height="164.2" fill="#f43f5e" rx="3"/>
+        <text x="73" y="70.80000000000001" text-anchor="middle" font-size="10" font-weight="bold" fill="#9f1239">82.1</text>
+
+        <!-- Cluster label -->
+        <text x="43" y="260" text-anchor="middle" font-size="11" font-weight="700" fill="#0f172a">Cluster 3</text>
+        <text x="43" y="275" text-anchor="middle" font-size="9" fill="#64748b">Champions</text>
+      </g>
+      
+      <g transform="translate(630, 0)">
+        <!-- Bar 1: Age -->
+        <rect x="0" y="158.2" width="26" height="81.8" fill="#3b82f6" rx="3"/>
+        <text x="13" y="153.2" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e40af">40.9</text>
+
+        <!-- Bar 2: Income -->
+        <rect x="30" y="63.400000000000006" width="26" height="176.6" fill="#10b981" rx="3"/>
+        <text x="43" y="58.400000000000006" text-anchor="middle" font-size="10" font-weight="bold" fill="#065f46">$88.3k</text>
+
+        <!-- Bar 3: Spend -->
+        <rect x="60" y="206.2" width="26" height="33.8" fill="#f43f5e" rx="3"/>
+        <text x="73" y="201.2" text-anchor="middle" font-size="10" font-weight="bold" fill="#9f1239">16.9</text>
+
+        <!-- Cluster label -->
+        <text x="43" y="260" text-anchor="middle" font-size="11" font-weight="700" fill="#0f172a">Cluster 4</text>
+        <text x="43" y="275" text-anchor="middle" font-size="9" fill="#64748b">Savers</text>
+      </g>
+      
+  </g>
+</svg>

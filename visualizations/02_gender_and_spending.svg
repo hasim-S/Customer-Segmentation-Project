@@ -1,0 +1,31 @@
+<svg width="800" height="360" viewBox="0 0 800 360" xmlns="http://www.w3.org/2000/svg" style="background:#ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <rect width="100%" height="100%" fill="#ffffff" rx="8"/>
+  <text x="400" y="32" text-anchor="middle" font-size="18" font-weight="700" fill="#0f172a">Gender Distribution &amp; Customer Behavior Insights</text>
+  
+  <!-- Donut Chart -->
+  <g transform="translate(180, 190)">
+    <circle r="90" fill="none" stroke="#ec4899" stroke-width="45" stroke-dasharray="316.67 565.48"/>
+    <circle r="90" fill="none" stroke="#3b82f6" stroke-width="45" stroke-dasharray="248.81 565.48" stroke-dashoffset="-316.67"/>
+    <text x="0" y="-8" text-anchor="middle" font-size="22" font-weight="800" fill="#0f172a">200</text>
+    <text x="0" y="14" text-anchor="middle" font-size="11" fill="#64748b">Customers</text>
+    
+    <text x="-80" y="110" font-size="12" font-weight="600" fill="#ec4899">● Female: 56.0% (112)</text>
+    <text x="30" y="110" font-size="12" font-weight="600" fill="#3b82f6">● Male: 44.0% (88)</text>
+  </g>
+
+  <!-- Key Metrics Cards -->
+  <g transform="translate(420, 75)">
+    <rect width="330" height="65" rx="6" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="16" y="24" font-size="11" font-weight="600" fill="#64748b">FEMALE SHOPPERS</text>
+    <text x="16" y="48" font-size="16" font-weight="700" fill="#ec4899">Avg Spend Score: 51.5 | Avg Age: 38.1</text>
+
+    <rect y="85" width="330" height="65" rx="6" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="16" y="109" font-size="11" font-weight="600" fill="#64748b">MALE SHOPPERS</text>
+    <text x="16" y="133" font-size="16" font-weight="700" fill="#3b82f6">Avg Spend Score: 48.5 | Avg Age: 39.8</text>
+
+    <rect y="170" width="330" height="70" rx="6" fill="#eff6ff" stroke="#bfdbfe"/>
+    <text x="16" y="195" font-size="11" font-weight="700" fill="#1e40af">KEY EDA TAKEAWAY</text>
+    <text x="16" y="215" font-size="11" fill="#1e3a8a">Female customers represent the majority (56%)</text>
+    <text x="16" y="230" font-size="11" fill="#1e3a8a">with higher average spending propensity in high-value clusters.</text>
+  </g>
+</svg>
